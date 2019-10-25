@@ -23,10 +23,14 @@ class Logger {
     })
   }
 
+  clear () {
+    this.logQueue = []
+  }
+
   error (lastLog) {
     this.record(`error:: ${lastLog}`)
     this.write()
-    this.logQueue = []
+    this.clear()
   }
 }
 
