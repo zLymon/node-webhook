@@ -1,0 +1,19 @@
+{
+  "name": "node-webhook",
+  "version": "1.0.0",
+  "description": "A Node project for detect the github webhook && deploy project",
+  "main": "index.js",
+  "scripts": {
+    "standard": "standard"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "date-fns": "^2.6.0"
+  },
+  "devDependencies": {
+    "standard": "^14.3.1"
+  }
+}
